@@ -2,9 +2,7 @@ import type { Metadata } from 'next'
 import { redirect } from 'next/navigation'
 
 import { auth } from '@/auth/auth'
-import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
-import { AppSidebar } from '@/components/app-sidebar'
-import { ModeSwitcherTheme } from '@/components/mode-switcher-theme'
+
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
